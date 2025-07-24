@@ -195,3 +195,136 @@ footer ul li{
 .logo img{
     margin-right: 20px;
 }
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    nav ul .none, .badge{
+        display: none;
+    }
+    header{
+        flex-direction: column-reverse;
+        gap: 50px;
+        margin: 0px;
+    }
+    nav{
+        margin: 0px;
+    }
+    body{
+        width: 390px;
+        padding: 5px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    .banner{
+        justify-content: center;
+        font-size: 1em;
+        height: 200px;
+        width: 100px;
+    }
+    header, .products{
+        margin: 1px;
+        gap: 0px;
+        
+    }
+    .products{
+        margin: 0px;
+        margin-top: 100px;
+    }
+    .banner-title,
+    .pro-title{
+       
+        font-size: 2.55em;
+    }
+    .banner-description,
+    .pro-des{
+        font-size: 1em;
+        width: 350px;
+        
+    }
+    .product{
+       width: 170px;
+       gap: 20px;
+       height: auto;
+       gap: 20px;
+    }
+    .product img{
+        width: 100%;
+        gap: 20px;
+    }
+    .btn{
+        padding: 10px 30px;
+        font-size: 1em;
+    }
+    .flower-lover{
+        margin-top: 100px;
+        margin: 0px;
+        justify-items: center;
+    }
+    .plant-lover{
+        display: block;
+        width: 350px;
+        margin-top: 40px;
+    }
+    .plant-lover img{
+        width: 310px;
+    }
+    .plant-lover-right{
+        width: 340px;
+        padding: 0px;
+    }
+    .plant-lover-description{
+        font-size: 1.5em;
+        width: 290px;
+        text-align: center;
+    }
+    .img-container{
+        display: block;
+        margin-top: 40px;
+    }
+    .img-container img{
+        width: 100%;
+        margin-top: 60px;
+    }
+    .plant-deal{
+        margin: 0px;
+    }
+    .join img{
+        width: 393px;
+        height: 310px;
+        margin-top: 100px;
+    }
+    .join-title{
+        font-size: 2em;
+    }
+    .bunch{
+        margin-top: -260px;
+    }
+    .email{
+         width: 220px;
+         height: 50px;
+    }
+    .btn-2{
+        padding: 5px 10px;
+        cursor: pointer;
+        font-size: 1em;
+    }
+    .join-box{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-container{
+        display: block;
+        margin: 0px;
+        padding-left: 20px;
+        max-width: 340px;
+    }
+}
